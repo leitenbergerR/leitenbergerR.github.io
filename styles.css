@@ -1,0 +1,199 @@
+body{
+  display: block;
+  box-sizing: border-box;
+ margin-top: 0px;
+ margin-left: 0px;
+ margin-right: 0px;
+ margin-bottom: 0px;
+}
+.navbar{
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  background-color: brown;
+  padding: 5px;
+  box-sizing: border-box;
+ }
+.navbar ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 600px 50px 400px;
+  padding: 10px 5px;
+}
+.navbar a{
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  margin-top: -13px;
+  
+}
+a:hover {
+  color: #f1eeBe;
+}
+.welcomePage {
+  position: absolute;
+
+}
+.welcomePage img{
+  margin-left: 50px;
+  margin-top: 10px;
+  box-shadow: 10px 20px 20px gray;
+}
+.message-box p{
+  border: 10px black;
+  padding: 47px 133px;
+  position: absolute;
+  font-size: 30px ;
+  font-weight: bold;
+  color: #f1eeBe;
+  background-color: brown;
+  left: 114px;
+  bottom: 290px;
+  border-radius: 5px;
+}
+.message-box span{
+  color: rgb(215, 228, 215);
+  position: absolute;
+  font-size: 50px;
+  padding: 22px;
+  margin: 2px;
+  left: 64px;
+  margin-top: -45px;
+ }
+
+ .greeting-message p{
+  margin-right: 100px;
+  margin-bottom: -110px;
+  padding-bottom: 50px;
+  position: absolute;
+  left: 1240px;
+  top: 200px;
+  font-size: 20px;
+  border-radius: 20px;
+  box-shadow: 10px 20px 20px gray;
+ }
+ span.icon-smile{
+  position: absolute;
+  left: 245px;
+ }
+ span.icon-flower{
+  position: absolute;
+  left: 233px;
+ }
+/*-----------------Impressum------------------*/
+.Impressum-container {
+  margin: 50px 600px;
+  font-size: 20px;
+  }
+.Impressum-container h1{
+  text-align: center;
+}
+/*-----------------Massagen------------------*/
+.prices{
+  margin:22px 800px ;
+  padding: 10px;
+  box-shadow: 10px 20px 20px gray;
+  position: relative;
+}
+
+.Thaitraditionalmassage{
+  width: 245px;
+  height: 255px;
+  position: absolute;
+  left: 274px;
+  top: 139px;
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 5px;
+}
+.Aromamassage{
+  width: 242px;
+  height: 268px;
+  position: absolute;
+  left: 277px;
+  top: 404px;
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 5px;
+}
+.Footmassage{
+  width: 240px;
+  height: 251px;
+  position: absolute;
+  left: 279px;
+  top: 682px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 10px gray;
+  border-radius: 5px;
+}
+/*-----------------Kontakt------------------*/
+.Kontakt{
+  margin-left: 350px;
+  margin-top: 50px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 180px 200px;
+  box-shadow: 10px 10px 10px gray;
+  background-color: brown;
+  color: #f1eeBe;
+}
+ .header-text ins{
+ font-size: 30px;
+ position: absolute;
+ left: 800px;
+ bottom: 684px;
+ }
+ .addresse{
+  position: absolute;
+  left: 840px;
+  bottom: 570px;
+  font-size: 25px;
+ }
+ .working-time mark{
+  position: absolute;
+  left: 850px;
+  bottom: 540px;
+  font-size: 25px;
+ }
+ .working-time p{
+  position: absolute;
+  left: 850px;
+  bottom: 480px;
+  font-size: 25px;
+ }
+ .phonenumber img{
+ height: 70px;
+ position: relative;
+ bottom: -15px;
+ left:198px;
+}
+.phonenumber p{
+  position: absolute;
+  bottom: 400px;
+  left: 840px;
+  font-size: 25px;
+}
+ .important-message mark{
+  position: absolute;
+  left: 756px;
+  bottom: 330px;
+  font-size: 25px;
+ }
+ ins.important-message{
+  position: absolute;
+  left: 650px;
+  bottom: 290px;
+  font-weight: bold;
+  font-size: 25px;
+ }
+
+ 
+
+
+/*-----------------Datenschutz------------------*/
+.datenschutzerklärung{
+  margin: 20px 100px 20px 200px ;
+  font-size: 20px;
+ 
+}
